@@ -1,0 +1,15 @@
+.calculator {
+  margin: 10rem auto;
+  min-height: 500px;
+  max-width: 95%;
+  width: 500px;
+  background-color: rgba(128, 128, 128, 0.342);
+  border-radius: 20px;
+
+  border: 2px solid white;
+  display: grid;
+  padding: 2rem;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 2fr repeat(5, 1fr);
+}
